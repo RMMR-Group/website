@@ -20,6 +20,15 @@ html, body {
   padding: 20px 0 0 0;
 }
 
+.section-body-text {
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 200;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0 40px 0;
+}
+
 .title-image-section {
   background-color: #000000;
   position: fixed;
@@ -233,7 +242,8 @@ html, body {
 
 .join-us {
   padding: 0;
-  background-color: #ffffff
+  background-color: #ffffff;
+  text-align: center
 }
 
 .links {
@@ -254,59 +264,8 @@ html, body {
 
 .footer {
   padding: 20px 0 20px 0;
-  background-color: #ffffff
+  background-color: #ffffff;
   text-align: center;
   font-family: Open Sans;
 /*  font-size: 1.4rem;*/*/*/*/
-}
-
-.alpha {
-background-image: url(images/reacq_movie_frame_1.png); 
-background-size: 250px; 250px;
-height: 250px;
-max-width: 250px; 
-padding: 0;
-margin: 1rem auto;
-position: relative;
-overflow: hidden;
-}
-
-.bravo {
-background-image: url(images/reacq_movie_frame_16.png); 
-background-size: 250px; 250px;
-height: 250px;
-resize: horizontal; 
-position: absolute; 
-top: 0; left: 0; 
-min-width: 0;
-max-width: 250px; 
--moz-box-sizing: border-box; 
-box-sizing: border-box; 
-}
-
-.bravo:before {
-content: '↔';
-background: rgba(50,50,255,.5);
-font-size: 18px; 
-color: white; 
-top: 0; right: 0px;
-hight: 100%;
-line-height: 250px;  
-position: absolute; 
-}
-
-.charly{  
-resize: horizontal; 
-opacity: 0; 
-position: relative; 
-top: 50%;
-left: 0px; 
-margin-right: 0px;  
-width: 0px; height: 15px; 
-max-width: 244px; min-width: 15px; 
-outline: 0 solid transparent; 
-cursor: move;
-cursor: all-scroll;
-transform: scaley(35);
-transform-origin: center center;
 }
