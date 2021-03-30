@@ -46,9 +46,9 @@ html, body {
   transform: translate(0, -50%);
   margin: 0 auto;*/
   display: block;
-  width: auto;
+  width: 2000;
   height: auto;
-  max-width: 100vw;
+  max-width: 90vw;
   max-height: 100vh;
   margin: auto;
 }
