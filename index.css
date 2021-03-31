@@ -215,21 +215,17 @@ html, body {
   margin: 10px 10px 10px 10px;
   flex: 0 1 auto;
   font-family: Open Sans;
-  display: grid;
-  grid-template-columns: 100px auto;
-  grid-template-rows: 100px auto;
+  display: flex;
 }
 
 .person-image {
-  grid-column-start: 1;
-  grid-row-start: 1;
-  width: 100px
+  width: 100px;
+  height: 100px;
+  flex: 0 0 auto;
 }
 
 .person-name {
-  grid-column-start: 1;
-  grid-row-start:2;
-  text-align: center;
+  text-align: left;
   font-weight:600;
 }
 
