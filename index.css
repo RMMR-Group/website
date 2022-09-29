@@ -111,22 +111,12 @@ html, body {
 
 .news-items {
   display: grid;
-  grid-template-columns: 150px auto;
-  margin: 20px 20px 20px 20px
-}
-
-.news-item-date {
-  grid-column-start: 1; 
-  text-align: right;
-  margin: 10px 10px 10px 10px;
-  font-family: Open Sans;
-  font-weight: 600;
-/*  font-size: 1.4rem;*/
-  margin-bottom: 0.5rem;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, minmax(400px, 75%));
+  overflow-y: scroll;
 }
 
 .news-item {
-  grid-column-start: 2; 
   text-align: left;
   margin: 10px 10px 10px 10px;
   font-family: Open Sans;
